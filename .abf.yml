@@ -1,2 +1,4 @@
+removed_sources:
+  Net-Nslookup-1.19.tar.gz: 4d62f4224f9470c401c365d9681aab257ac34e2c
 sources:
-  "Net-Nslookup-1.19.tar.gz": 4d62f4224f9470c401c365d9681aab257ac34e2c
+  Net-Nslookup-2.03.tar.gz: 27ab31e00c2e757914b911c3c8cd9951bfa705d4

@@ -1,15 +1,15 @@
 %define upstream_name    Net-Nslookup
-%define upstream_version 1.19
+%define upstream_version 2.03
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 2.03
+Release:	1
 
 Summary:	Provide nslookup(1)-like capabilities
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Net/Net-Nslookup-2.03.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Net::DNS)
@@ -53,4 +53,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sun Oct 03 2010 Shlomi Fish <shlomif@mandriva.org> 1.190.0-1mdv2011.0
 + Revision: 582695
 - import perl-Net-Nslookup
+
 
