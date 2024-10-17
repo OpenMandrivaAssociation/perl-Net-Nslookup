@@ -8,7 +8,7 @@ Release:	3
 Summary:	Provide nslookup(1)-like capabilities
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Net/Net-Nslookup-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
