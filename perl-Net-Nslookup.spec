@@ -1,15 +1,15 @@
 %define upstream_name    Net-Nslookup
-%define upstream_version 2.03
+%define upstream_version 2.04
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Provide nslookup(1)-like capabilities
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Net/Net-Nslookup-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/Net-Nslookup
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DARREN/Net-Nslookup-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
