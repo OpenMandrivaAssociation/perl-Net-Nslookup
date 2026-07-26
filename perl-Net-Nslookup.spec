@@ -1,15 +1,13 @@
 %define upstream_name    Net-Nslookup
-%define upstream_version 2.04
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	2.04
+Release:	2
 
 Summary:	Provide nslookup(1)-like capabilities
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Net-Nslookup
-Source0:	https://cpan.metacpan.org/authors/id/D/DA/DARREN/Net-Nslookup-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DARREN/Net-Nslookup-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -29,7 +27,7 @@ be used to retrieve A, PTR, CNAME, MX, and NS records.
   my $a  = nslookup(host => "use.perl.org", type => "A");
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
